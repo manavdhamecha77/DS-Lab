@@ -23,7 +23,6 @@ int main()
     int high = n-1;
     int mid,max;
     
-    
     for(int i=0;i<n;i++)
     {
         mid = (high + low)/2;
@@ -41,7 +40,5 @@ int main()
         }
     }
     
-    printf("\nMaximum Element in Bitionic Array is : %d", max);
-    
-    
+    printf("\nMaximum Element in Bitionic Array is : %d", max);       
 }
